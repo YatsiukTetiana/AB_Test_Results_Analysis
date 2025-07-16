@@ -3,16 +3,16 @@
 This project focuses on analyzing A/B test results using statistical methods in **Python** and visualizing the findings in **Tableau**.
 
 
-📂 **Data Source**: ab_test_data.csv (data gained from BigQuery)
+**Data Source**: ab_test_data.csv (data gained from BigQuery)
 
 🛠️ **Tools Used**: Python (google.colab, pandas, numpy, statistics), Tableau.
 
 
 ## 🎯 Objectives
 
-### 🧮 **Developing a Universal Statistical Significance Calculator**
+### **Developing a Universal Statistical Significance Calculator**
 Create a flexible Python script to calculate statistical significance for A/B test metrics.  
-✅ Uses arrays and loops to handle **any number of metrics**, avoiding hardcoded logic.
+Uses arrays and loops to handle **any number of metrics**, avoiding hardcoded logic.
 
 
 ### 📊 **Analyzing Conversion Metrics**
@@ -26,9 +26,9 @@ Calculate significance for key performance metrics:
 
 ### 🔍 **Perform Analysis by Segments**
 Compute statistical significance not only for the overall test but also across all possible segments:  
-📌 By **test number**  
-📌 By **country**  
-📌 By **device type**  
+- By **test number**  
+- By **country**  
+- By **device type**  
 …and other available segments to provide comprehensive insights.
 
 
