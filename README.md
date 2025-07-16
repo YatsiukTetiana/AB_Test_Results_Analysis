@@ -7,7 +7,6 @@ This project focuses on analyzing A/B test results using statistical methods in 
 
 🛠️ **Tools Used**: Python (google.colab, pandas, numpy, statistics), Tableau.
 
----
 
 ## 🎯 Objectives
 
@@ -15,7 +14,6 @@ This project focuses on analyzing A/B test results using statistical methods in 
 Create a flexible Python script to calculate statistical significance for A/B test metrics.  
 ✅ Uses arrays and loops to handle **any number of metrics**, avoiding hardcoded logic.
 
----
 
 ### 📊 **Analyzing Conversion Metrics**
 Calculate significance for key performance metrics:  
@@ -25,7 +23,6 @@ Calculate significance for key performance metrics:
 - `new_accounts / session`  
 - `session_with_orders / session`
 
----
 
 ### 🔍 **Perform Analysis by Segments**
 Compute statistical significance not only for the overall test but also across all possible segments:  
@@ -34,14 +31,12 @@ Compute statistical significance not only for the overall test but also across a
 📌 By **device type**  
 …and other available segments to provide comprehensive insights.
 
----
 
 ### 💾 **Saving Results**
 Export a clean `.csv` file containing all necessary data for visualization, including calculated metrics, Z-statistics, P-values, and significance.  
 Results include a table with columns:  
  `"test_number" | "segmentation_by" | "segment" | "metric" | "numerator_event" | "denominator_event" | "numerator_count_a" | "denominator_count_a" | "conversion_rate_a" | "numerator_count_b" | "denominator_count_b" | "conversion_rate_b" | "metric_change" | "z_stat" | "p_value" | "significance"`
 
----
 
 ### 📈 **Creating Result Visualization**
 Building a Tableau Dashboard for A/B test results analysis.
