@@ -3,7 +3,7 @@
 This project focuses on analyzing A/B test results using statistical methods in **Python** and visualizing the findings in **Tableau**.
 
 
-**Data Source**: ab_test_data.csv (data gained from BigQuery)
+**Data Source**: [ab_test_data.csv](ab_test_data.csv) (data gained from BigQuery by [SQL query](SQL_Query))
 
 🛠️ **Tools Used**: Python (google.colab, pandas, numpy, statistics), Tableau.
 
