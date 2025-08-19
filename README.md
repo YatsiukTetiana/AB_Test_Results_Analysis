@@ -43,7 +43,7 @@ Building a Tableau Dashboard for A/B test results analysis.
 
 ![Dashboard Preview](AB_Test_Result_Parameters.png)  
 
-[View Jupyter Notebook](https://colab.research.google.com/drive/1g3grYwrTD3EE9zBwMQurfZ514ennsnUs?usp=sharing)
+[View Jupyter Notebook](https://colab.research.google.com/drive/1g3grYwrTD3EE9zBwMQurfZ514ennsnUs?usp=sharing)   
 🔗 [View on Tableau Public](https://public.tableau.com/views/ABTestResultParametersDashboard/ABTestResultParameters?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)  
 📁 [Download .twbx file](AB_Test_Result_Parameters_Dashboard.twbx)
 
